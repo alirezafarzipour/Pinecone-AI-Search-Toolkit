@@ -19,7 +19,7 @@ Below is an overview of each module and its functionality:
 
 ## Semantic Search
 
-This module performs **semantic search** on the [Quora dataset](https://quoradata.quora.com/) by embedding textual data and leveraging Pinecone for efficient similarity matching. The embeddings are generated using the `SentenceTransformer` model, and the Pinecone index is configured with cosine similarity for search.
+This module performs **semantic search** on the quora dataset by embedding textual data and leveraging Pinecone for efficient similarity matching. The embeddings are generated using the `SentenceTransformer` model, and the Pinecone index is configured with cosine similarity for search.
 
 ### Key Features:
 - Embedding textual data using **SentenceTransformer**:
@@ -41,7 +41,7 @@ This module performs **semantic search** on the [Quora dataset](https://quoradat
 
 ## Simple Retrieval-Augmented Generation (RAG)
 
-This module demonstrates a simple **RAG pipeline** using Wikipedia data. It embeds text data, searches for relevant articles, and generates content by prompting the GPT-3.5-turbo-instruct model. The process involves contextual retrieval and generation.
+This module demonstrates a simple **RAG pipeline** using Wikipedia data [(link)](https://drive.google.com/file/d/14sa43lSokEmw_r64N8-1AP04M_EgOw5N/view?usp=sharing). It embeds text data, searches for relevant articles, and generates content by prompting the GPT-3.5-turbo-instruct model. The process involves contextual retrieval and generation.
 
 ### Workflow:
 1. Embed articles using OpenAI’s `text-embedding-ada-002`:
@@ -72,7 +72,7 @@ This module demonstrates a simple **RAG pipeline** using Wikipedia data. It embe
 
 ## Recommender Systems
 
-This module implements a **content-based recommendation system** using a dataset of news article titles. The titles are embedded and indexed, and relevant titles are suggested based on user input (e.g., a keyword or name).
+This module implements a **content-based recommendation system** using a dataset of news article titles [(link)](https://drive.google.com/file/d/1MJAxaa5VtDXM767KpdvVI5lfx8K_5JHc/view?usp=sharing). The titles are embedded and indexed, and relevant titles are suggested based on user input (e.g., a keyword or name).
 
 ### Key Steps:
 - Create and initialize a Pinecone index for storing embeddings:
